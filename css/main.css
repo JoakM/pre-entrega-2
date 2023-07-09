@@ -8,11 +8,11 @@
 /* ESTILOS GENERALES */
 
 html{
-    background-color: chartreuse;
+    background-color: #000000;
 }
 
 a{
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -21,10 +21,11 @@ a{
 header{
     text-align: center;
     padding: 10px;
+    background-color: #000000;
 }
 
 header nav ul li{
-    background-color: #f4a7d4;
+    background-color: white;
     display: inline-block;
     margin: 20px;
     padding: 10px;

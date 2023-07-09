@@ -1,0 +1,111 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS GENERALES */
+
+html{
+    background-color: chartreuse;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* estilos del header */
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul li{
+    background-color: #f4a7d4;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* estilos del main */
+
+main {
+    margin: 30px;
+}
+
+main .banner{
+    margin: 30px 570px;
+}
+
+/* Estilos del footer */
+
+footer{
+    margin: 30px;
+    text-align: center;
+}
+
+
+/* ESTILOS ESPECIFICOS */
+/* Index */
+
+main .texto{
+    text-align: center;
+}
+main .img{
+    margin-left: 370px;
+}
+
+section{
+    margin: 30px;
+}
+
+section img{
+    padding: 10px;
+}
+
+/* SOBRE MI */
+
+.texto-2{
+    margin: 30px;
+}
+
+.texto-2 p{
+    padding: 20px;
+    font-size: large;
+}
+
+
+/* Contacto */
+
+main h4{
+    margin-top: 20px;
+}
+.wpp{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.mail{
+    padding: 10px;
+}
+
+main form{
+    margin: 30px;
+    font-size: large;
+}
+
+
+/* MI VISION */
+
+h2{
+    margin-left: 50px;
+}
+
+/* PROYECTOS */
+
+.item{
+    margin: 30px;
+}

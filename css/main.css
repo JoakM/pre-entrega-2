@@ -37,10 +37,6 @@ main {
     margin: 30px;
 }
 
-main .banner{
-    margin: 30px 570px;
-}
-
 /* Estilos del footer */
 
 footer{
@@ -49,64 +45,93 @@ footer{
 }
 
 
-/* ESTILOS ESPECIFICOS */
-/* Index */
+@media screen and (min-width:1024px){
+    /* ESTILOS ESPECIFICOS */
+    /* Index */
 
-main .texto{
-    text-align: center;
-}
-main .img{
-    margin-left: 370px;
-}
+    .home{
+        display: flex;
+    }
 
-section{
-    margin: 30px;
-}
+    .home .texto-home{
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
 
-section img{
+    .home .texto-home h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    .home .img-home{
+        margin-left: 370px;
+    }
+
+    section{
+        margin: 30px;
+    }
+
+    section img{    
     padding: 10px;
-}
+    margin-right: 18px;
+    }
 
-/* SOBRE MI */
+    /* SOBRE MI */
 
-.texto-2{
+    .texto-2{   
     margin: 30px;
-}
+    }
 
-.texto-2 p{
+    .texto-2 p{ 
     padding: 20px;
     font-size: large;
-}
+    }
+
+    /* Contacto */
+
+    main h4{
+        margin-top: 20px;
+    }
+    .wpp{
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .mail{
+        padding: 10px;
+    }
+
+    main form{
+        margin: 30px;
+        font-size: large;
+        background-color: whitesmoke;
+    }
 
 
-/* Contacto */
+    /* MI VISION */
 
-main h4{
-    margin-top: 20px;
-}
-.wpp{
-    margin-top: 10px;
-    padding: 10px;
-}
+    h2{
+        margin-left: 50px;
+    }
 
-.mail{
-    padding: 10px;
-}
+    /* PROYECTOS */
 
-main form{
-    margin: 30px;
-    font-size: large;
-}
+    .main-proyectos{
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 20px;
+    }
 
+    main .item{
+        display: flex;
+    }
 
-/* MI VISION */
-
-h2{
-    margin-left: 50px;
-}
-
-/* PROYECTOS */
-
-.item{
-    margin: 30px;
+    main .item .texto-3{
+        margin: 30px;
+        text-align:justify;
+    }
 }

@@ -25,9 +25,9 @@ header{
 }
 
 header nav ul li{
-    background-color: white;
+    background-color: #F0EDE6;
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -44,6 +44,83 @@ footer{
     text-align: center;
 }
 
+@media screen and (max-width:600px) {
+
+    /* Index */    
+
+    .home .texto-home{
+        text-align: center;
+        background-color: #F0EDE6;
+        border-radius: 5%;
+        padding: 20px;
+    }
+
+    .home .texto-home h3{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    section{
+        display: flex;
+        margin: 30px;
+    }
+
+    section img{
+        margin-right: 30px;
+    }
+    section .img-3, .img-4, .img-5{
+        display: none;
+    }
+    
+    /* SOBRE MI */
+
+    .texto-2{   
+        margin: 30px;
+        }
+    
+    .texto-2 p{ 
+        padding: 20px;
+        font-size: large;
+    }
+
+    /* Contacto */
+
+    main h4{
+        margin-top: 20px;
+    }
+    .wpp{
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .mail{
+        padding: 10px;
+    }
+
+    main form{
+        margin: 30px;
+        font-size:medium;
+        background-color: #F0EDE6;
+    }
+
+    /* MI VISION */
+
+    h2{
+        text-align: center;
+    }
+
+    /* PROYECTOS */
+
+    .main-proyectos{
+        display: grid;
+        grid-template-columns: repeat(2, 15rem);
+        gap: 20px;
+    }
+
+    .texto-3{
+        display: none;
+    }
+}
 
 @media screen and (min-width:1024px){
     /* ESTILOS ESPECIFICOS */
@@ -55,7 +132,8 @@ footer{
 
     .home .texto-home{
         text-align: center;
-        background-color: whitesmoke;
+        background-color: #F0EDE6;
+        border-radius: 5%;
         padding: 20px;
     }
 
@@ -79,6 +157,10 @@ footer{
     }
 
     /* SOBRE MI */
+
+    main div{
+        align-content: center;
+    }
 
     .texto-2{   
     margin: 30px;
@@ -106,9 +188,8 @@ footer{
     main form{
         margin: 30px;
         font-size: large;
-        background-color: whitesmoke;
+        background-color: #F0EDE6;
     }
-
 
     /* MI VISION */
 
@@ -126,7 +207,7 @@ footer{
         row-gap: 20px;
     }
 
-    main .item{
+    .main-proyectos .item{
         display: flex;
     }
 
